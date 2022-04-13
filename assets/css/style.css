@@ -3,7 +3,7 @@
 /* header rules */
 #header h1
 {
- font-family:"Montserrat";
+ font-family: "Montserrat";
 display: inline-block;
 margin-right: 25px;
 font-size: 2.5em;
@@ -30,10 +30,10 @@ background-color: #8b4727;
   /* multiple sections border box */
 #home, #biography, #funfacts, #famousquotes, #contact
 {
+  margin: 10%;
    margin-top: 100px;
    width: 90%;
    height: 40%;
-   margin: 10%;
    padding: 50px;
    box-sizing: border-box;
    background-color: #755038;
@@ -63,10 +63,69 @@ font-size: 1.875em;
 font-size: 1.175em;
 }
 
-/* (home,biography,fun facts and famous quotes) paragraph font size*/
+/* ( home,biography,fun facts and famous quotes) paragraph font size */
 #home, #biography, #funfacts,#famousquotes p
 {
  width: 85%;
 font-size: 0.875em;
 }
 
+/* footer details */
+#footer {
+ 
+  
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+ }
+ 
+ .social-networks > li {
+    text-align: center;
+    display: inline;
+    min-height: 100%;
+   margin-bottom: -120px; /* Same as push height */
+   padding: auto;
+   font-size: 0.1225em;
+ }
+ 
+ /* copyright with my personal name at the bottom of the page */
+.copyright
+{
+  color: #e7e7e7;
+   font-size: 1.115em;
+   }
+ 
+/* a href navbar including the navigation and social networks */
+a  {
+  float: center;
+       width: 20%;
+        display: inline;
+         border: 1px solid #e7e7e7;
+         background-color: gray;
+         color: white;
+         text-align: center;
+         padding: 0.005em;
+         text-decoration: none;
+       ;
+     }
+ 
+/* change the link color to #111 (black) on hover */
+a:hover {
+ background-color: #111;
+}
+
+/* navigation not moving when scrolling the page */
+#navigation
+{
+  position: fixed;
+margin-bottom: 0.995em;
+font-size: 80%;
+}
+ 
+#social-networks
+{
+  position: absolute;
+   float: inline-start;
+   font-size: 0.975em;
+   }
