@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Montserrat:wght@300&display=swap');
+/* header rules */
+#header h1
+{
+ font-family:"Montserrat";
+display: inline-block;
+margin-right: 25px;
+font-size: 2.5em;
+color: #3a2d0a;
+font-weight: bold;
+cursor: pointer;
+}
+/* insert background image; no repeat and covering the whole site */
+body {
+    background-image: url('https://i.imgur.com/BVAlDIO.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     background-size: cover;
+     margin: 0px auto;
+padding: 5px;
+padding-bottom: 15px;
+text-align: center;
+width: 100%;
+font-family: "Inconsolata";
+background-color: #8b4727;
+  }
+/* multiple sections border box */
+#home, #biography, #funfacts, #famousquotes, #contact, #footer
+{
+   margin-top: 100px;
+   width: 90%;
+   height: 40%;
+   margin: 10%;
+   padding: 50px;
+   box-sizing: border-box;
+   background-color: #755038;
+   border-radius: 50px;
+   color: white;
+   object-fit: contain;
+}
