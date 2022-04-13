@@ -25,7 +25,7 @@ font-family: "Inconsolata";
 background-color: #8b4727;
   }
 /* multiple sections border box */
-#home, #biography, #funfacts, #famousquotes, #contact, #footer
+#home, #biography, #funfacts, #famousquotes, #contact
 {
    margin-top: 100px;
    width: 90%;
