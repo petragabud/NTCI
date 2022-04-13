@@ -37,6 +37,7 @@ a:hover {
   position: fixed;
 margin-bottom: 0.995em;
 font-size: 80%;
+background-color: grey;
 }
 
 /* insert background image; no repeat and covering the whole site */
