@@ -35,6 +35,7 @@ a:hover {
 #navigation
 {
   position: fixed;
+  display: block;
 margin-bottom: 0.995em;
 font-size: 80%;
 background-color: grey;
