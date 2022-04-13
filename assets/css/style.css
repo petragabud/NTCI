@@ -12,6 +12,33 @@ font-weight: bold;
 cursor: pointer;
 }
 
+/* a href navbar including the navigation and social networks */
+a {
+  float: center;
+       width: 20%;
+        display: inline;
+         border: 1px solid #e7e7e7;
+         background-color: gray;
+         color: white;
+         text-align: center;
+         padding: 0.005em;
+         text-decoration: none;
+       ;
+     }
+ 
+/* change the link color to #111 (black) on hover */
+a:hover {
+ background-color: #111;
+}
+
+/* navigation not moving when scrolling the page */
+#navigation
+{
+  position: fixed;
+margin-bottom: 0.995em;
+font-size: 80%;
+}
+
 /* insert background image; no repeat and covering the whole site */
 body {
     background-image: url('https://i.imgur.com/BVAlDIO.jpg');
@@ -88,6 +115,13 @@ font-size: 0.875em;
    padding: auto;
    font-size: 0.1225em;
  }
+
+ #social-networks
+{
+  position: absolute;
+   float: inline-start;
+   font-size: 0.975em;
+   }
  
  /* copyright with my personal name at the bottom of the page */
 .copyright
@@ -96,36 +130,6 @@ font-size: 0.875em;
    font-size: 1.115em;
    }
  
-/* a href navbar including the navigation and social networks */
-a {
-  float: center;
-       width: 20%;
-        display: inline;
-         border: 1px solid #e7e7e7;
-         background-color: gray;
-         color: white;
-         text-align: center;
-         padding: 0.005em;
-         text-decoration: none;
-       ;
-     }
- 
-/* change the link color to #111 (black) on hover */
-a:hover {
- background-color: #111;
-}
 
-/* navigation not moving when scrolling the page */
-#navigation
-{
-  position: fixed;
-margin-bottom: 0.995em;
-font-size: 80%;
-}
  
-#social-networks
-{
-  position: absolute;
-   float: inline-start;
-   font-size: 0.975em;
-   }
+
