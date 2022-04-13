@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Montserrat:wght@300&display=swap');
+
 /* header rules */
 #header h1
 {
@@ -10,6 +11,7 @@ color: #3a2d0a;
 font-weight: bold;
 cursor: pointer;
 }
+
 /* insert background image; no repeat and covering the whole site */
 body {
     background-image: url('https://i.imgur.com/BVAlDIO.jpg');
@@ -24,7 +26,8 @@ width: 100%;
 font-family: "Inconsolata";
 background-color: #8b4727;
   }
-/* multiple sections border box */
+
+  /* multiple sections border box */
 #home, #biography, #funfacts, #famousquotes, #contact
 {
    margin-top: 100px;
@@ -66,3 +69,4 @@ font-size: 1.175em;
  width: 85%;
 font-size: 0.875em;
 }
+
