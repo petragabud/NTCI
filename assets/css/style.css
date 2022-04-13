@@ -38,3 +38,31 @@ background-color: #8b4727;
    color: white;
    object-fit: contain;
 }
+
+/* home font size */
+#home h2
+{
+ width: 90%;
+font-size: 1.875em;
+}
+
+/* (biography, fun facts and famous quotes) font size */
+#biography, #funfacts, #famousquotes h2
+{
+ width: 90%;
+font-size: 1.875em;
+}
+
+/* Contact header font size */
+#contact h3
+{
+ width: 85%;
+font-size: 1.175em;
+}
+
+/* (home,biography,fun facts and famous quotes) paragraph font size*/
+#home, #biography, #funfacts,#famousquotes p
+{
+ width: 85%;
+font-size: 0.875em;
+}
