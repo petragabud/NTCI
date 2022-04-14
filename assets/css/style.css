@@ -97,6 +97,41 @@ p
 font-size: 125%;
 }
 
+/* Contact header font size */
+#contact h3
+{
+ width: 100%;
+font-size: 160%;
+text-align: center;
+}
+
+/* Contact form styling*/
+#contact input[type="text"]
+{
+ width: 60%;
+ height: 5%;
+ float: center;
+ border: none;
+}
+ 
+ #contact input[type="email"]
+ {
+ width: 60%;
+ height: 5%;
+ float: center;
+ border: none;
+}
+
+ #contact textarea
+{
+ width: 60%;
+ height: auto 0;
+ float: center;
+ margin-top: 5%;
+ border: none;
+}
+
+
 /* footer details */
 #footer {
  
@@ -131,27 +166,4 @@ font-size: 125%;
    text-align: center;
    }
  
-#contact input[type="text"]
-{
- width: 60%;
- height: 5%;
- float: center;
- border: none;
-}
- 
- #contact input[type="email"]
- {
- width: 60%;
- height: 5%;
- float: center;
- border: none;
-}
 
- #contact textarea
-{
- width: 60%;
- height: auto 0;
- float: center;
- margin-top: 5%;
- border: none;
-}
