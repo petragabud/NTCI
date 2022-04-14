@@ -57,11 +57,23 @@
       </div>
       <!-- Contact Area -->
     <div id="contact">
-        <h3>Contact us at info@contact.com or you can fill the form bellow</h3>
-        <input type="text" placeholder="First Name">
-        <input type="text" placeholder="Email Address">
+    
+    <h3>Contact us at info@contact.com or fill in the form</h3>
+    
+    <form action="contact-form-dump.html" class="form">
+        
+        <label for="name" class="form-label">Name:</label>
+                    <br>
+                    <input type="text" class="input-form" id="name" name="name" required>
+                    <br>
+         <label for="email" class="form-label">Email:</label>
+                    <br>
+                    <input type="email" class="input-form" id="email" name="email" required>
+                    <br>           
+        
+        
         <textarea placeholder="Message"></textarea>
-        <input type="submit" value="Submit">
+       <input type="submit" class="submit-button" value="Submit" aria-label="Button that sends the form">
       </div>
 
 
