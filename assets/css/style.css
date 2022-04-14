@@ -1,169 +1,153 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Montserrat:wght@300&display=swap');
 
 /* header rules */
-#header h1
-{
- font-family: Montserrat, sans-serif;
-display: inline-block;
-text-align: center;
-margin: auto 0;
-font-size: 275%;
-color: #3a2d0a;
-font-weight: bold;
-cursor: pointer;
-}
-
-/* a href navbar including the navigation and social networks */
-a {
-  float: center;
-       width: 100%;
-        display: inline;
-         border: 1px solid white;
-         background-color: darkgray;
-         color: white;
-         margin: auto 0;
-         text-align: center;
-         padding: auto 0;
-         text-decoration: none;
-         font-size: 125%;
-     }
- 
-/* change the link color to #111 (black) on hover */
-a:hover {
- background-color: #111;
+#header h1 {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  text-align: center;
+  margin: auto 0;
+  font-size: 275%;
+  color: #3a2d0a;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 /* navigation not moving when scrolling the page */
-#navigation
-{
-  position: fixed, center;
-  display: block;
-  margin-top: 7%;
-margin-bottom: 2%;
-background-color: grey;
-text-align: center;
+#navigation {
+  font-family: "Inconsolata", Sans-serif;
+  display: inline block;
+  float: center;
+  width: 100%;
+  position: fixed;
+  background-color: grey;
+  text-align: center;
+  border: 1px hidden;
+  color: white;
+  font-size: 125%;
+  font-style: normal;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
+
+/* a href (for Navigation Menu and Social Media) changes colors when certain actions are made */
+
+a:link,
+a:visited {
+  color: white;
+  padding: 1%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: #CB997E;
+}
+
 
 /* insert background image; no repeat and covering the whole site */
 body {
-    background-image: url('https://i.imgur.com/BVAlDIO.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-     background-size: cover;
-     margin: 0px auto;
-padding: 5px;
-padding-bottom: 15px;
-text-align: center;
-width: 100%;
-font-family: Inconsolata, sans-serif;
-background-color: #e5d3b3;
-  }
+  background-image: url('https://i.imgur.com/BVAlDIO.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0px auto;
+  padding: 5px;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 100%;
+  font-family: Inconsolata, sans-serif;
+  background-color: #e5d3b3;
+}
 
-  /* multiple sections border box */
-#home, #biography, #funfacts, #famousquotes, #contact, #successfull-form-message
-{
+/* multiple sections border box */
+#home,
+#biography,
+#funfacts,
+#famousquotes,
+#contact,
+#successfull-form-message {
   margin: 10%;
-   margin-top: 100px;
-   width: 85%;
-   height: 40%;
-   padding: 50px;
-   box-sizing: border-box;
-   background-color: #755038;
-   border-radius: 50px;
-   color: white;
-   object-fit: contain;
+  margin-top: 100px;
+  width: 85%;
+  height: 40%;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: #755038;
+  border-radius: 50px;
+  color: white;
+  object-fit: contain;
 }
 
 /* (home, biography, fun facts and famous quotes) font size */
-h2
-{
- width: 100%;
-font-size: 180%;
-text-align: center;
-}
-
-/* Contact header font size */
-#contact h3
-{
- width: 100%;
-font-size: 160%;
-text-align: center;
+h2 {
+  width: 100%;
+  font-size: 180%;
+  text-align: center;
 }
 
 /* ( home,biography,fun facts and famous quotes) paragraph font size */
-p
-{
- width: 100%;
-font-size: 125%;
+p {
+  width: 100%;
+  font-size: 125%;
 }
 
 /* Contact header font size */
-#contact h3
-{
- width: 100%;
-font-size: 160%;
-text-align: center;
+#contact h3 {
+  width: 100%;
+  font-size: 160%;
+  text-align: center;
 }
 
-/* Contact form styling*/
-#contact input[type="text"]
-{
- width: 60%;
- height: 5%;
- float: center;
- border: none;
-}
- 
- #contact input[type="email"]
- {
- width: 60%;
- height: 5%;
- float: center;
- border: none;
+/* Contact form styling */
+#contact input[type="text"] {
+  width: 60%;
+  height: 5%;
+  float: center;
+  border: none;
 }
 
- #contact textarea
-{
- width: 60%;
- height: auto 0;
- float: center;
- margin-top: 5%;
- border: none;
+#contact input[type="email"] {
+  width: 60%;
+  height: 5%;
+  float: center;
+  border: none;
 }
 
+#contact textarea {
+  width: 60%;
+  height: auto 0;
+  float: center;
+  margin-top: 5%;
+  border: none;
+}
 
 /* footer details */
 #footer {
- 
-  
-    height: 150px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
- }
- 
- #social-networks
-{
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#social-networks {
   text-align: center;
-   }
- 
- .social-networks > li {
-    text-align: center;
-    display: inline;
-    min-height: 100%;
-   margin-bottom: -120px; /* Same as push height */
-   padding: auto;
- }
+}
 
- 
- 
- /* copyright with my personal name at the bottom of the page */
-.copyright
-{
-  color: #e7e7e7;
-   font-size: 120%;
-   list-style-type: none;
-   text-align: center;
-   }
- 
+.social-networks > li {
+  text-align: center;
+  display: inline;
+  min-height: 100%;
+  margin-bottom: -120px;
+  padding: auto 0;
+  font-size: 150%;
+}
 
+/* copyright with my personal name at the bottom of the page */
+.copyright {
+  color: black;
+  font-size: 120%;
+  list-style-type: none;
+  text-align: center;
+}
