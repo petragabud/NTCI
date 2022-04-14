@@ -15,8 +15,6 @@
 /* navigation not moving when scrolling the page */
 #navigation {
   font-family: "Inconsolata", Sans-serif;
-  display: inline block;
-  float: center;
   width: 100%;
   position: fixed;
   background-color: grey;
@@ -103,21 +101,18 @@ p {
 #contact input[type="text"] {
   width: 60%;
   height: 5%;
-  float: center;
   border: none;
 }
 
 #contact input[type="email"] {
   width: 60%;
   height: 5%;
-  float: center;
   border: none;
 }
 
 #contact textarea {
   width: 60%;
-  height: auto 0;
-  float: center;
+  height: auto;
   margin-top: 5%;
   border: none;
 }
@@ -139,7 +134,6 @@ p {
   display: inline;
   min-height: 100%;
   margin-bottom: -120px;
-  padding: auto 0;
   font-size: 150%;
 }
 
