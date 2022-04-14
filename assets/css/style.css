@@ -3,10 +3,11 @@
 /* header rules */
 #header h1
 {
- font-family: "Montserrat, Sans-Serif";
+ font-family: Montserrat, sans-serif;
 display: inline-block;
-margin-right: 25px;
-font-size: 2.5em;
+text-align: center;
+margin: auto 0;
+font-size: 275%;
 color: #3a2d0a;
 font-weight: bold;
 cursor: pointer;
@@ -15,15 +16,16 @@ cursor: pointer;
 /* a href navbar including the navigation and social networks */
 a {
   float: center;
-       width: 20%;
+       width: 100%;
         display: inline;
-         border: 1px solid #e7e7e7;
-         background-color: gray;
+         border: 1px solid white;
+         background-color: darkgray;
          color: white;
+         margin: auto 0;
          text-align: center;
-         padding: 0.005em;
+         padding: auto 0;
          text-decoration: none;
-       ;
+         font-size: 125%;
      }
  
 /* change the link color to #111 (black) on hover */
@@ -34,11 +36,12 @@ a:hover {
 /* navigation not moving when scrolling the page */
 #navigation
 {
-  position: fixed;
+  position: fixed, center;
   display: block;
-margin-bottom: 0.995em;
-font-size: 80%;
+  margin-top: 7%;
+margin-bottom: 2%;
 background-color: grey;
+text-align: center;
 }
 
 /* insert background image; no repeat and covering the whole site */
@@ -52,12 +55,12 @@ padding: 5px;
 padding-bottom: 15px;
 text-align: center;
 width: 100%;
-font-family: "Inconsolata";
+font-family: Inconsolata, sans-serif;
 background-color: #8b4727;
   }
 
   /* multiple sections border box */
-#home, #biography, #funfacts, #famousquotes, #contact
+#home, #biography, #funfacts, #famousquotes, #contact, #successfull-form-message
 {
   margin: 10%;
    margin-top: 100px;
@@ -71,32 +74,27 @@ background-color: #8b4727;
    object-fit: contain;
 }
 
-/* home font size */
-#home h2
+/* (home, biography, fun facts and famous quotes) font size */
+h2
 {
- width: 90%;
-font-size: 1.875em;
-}
-
-/* (biography, fun facts and famous quotes) font size */
-#biography, #funfacts, #famousquotes h2
-{
- width: 85%;
-font-size: 1.875em;
+ width: 100%;
+font-size: 180%;
+text-align: center;
 }
 
 /* Contact header font size */
 #contact h3
 {
- width: 85%;
-font-size: 1.175em;
+ width: 100%;
+font-size: 160%;
+text-align: center;
 }
 
 /* ( home,biography,fun facts and famous quotes) paragraph font size */
-#home, #biography, #funfacts, #famousquotes p
+p
 {
- width: 85%;
-font-size: 0.875em;
+ width: 100%;
+font-size: 125%;
 }
 
 /* footer details */
@@ -109,29 +107,51 @@ font-size: 0.875em;
     width: 100%;
  }
  
+ #social-networks
+{
+  text-align: center;
+   }
+ 
  .social-networks > li {
     text-align: center;
     display: inline;
     min-height: 100%;
    margin-bottom: -120px; /* Same as push height */
    padding: auto;
-   font-size: 0.1225em;
  }
 
- #social-networks
-{
-  position: absolute;
-   float: inline-start;
-   font-size: 0.975em;
-   }
+ 
  
  /* copyright with my personal name at the bottom of the page */
 .copyright
 {
   color: #e7e7e7;
-   font-size: 1.115em;
+   font-size: 120%;
+   list-style-type: none;
+   text-align: center;
    }
  
-
+#contact input[type="text"]
+{
+ width: 60%;
+ height: 5%;
+ float: center;
+ border: none;
+}
  
+ #contact input[type="email"]
+ {
+ width: 60%;
+ height: 5%;
+ float: center;
+ border: none;
+}
 
+ #contact textarea
+{
+ width: 60%;
+ height: auto 0;
+ float: center;
+ margin-top: 5%;
+ border: none;
+}
