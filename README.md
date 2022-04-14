@@ -1,3 +1,7 @@
+# History of Nikola Tesla
+![Presenation of the History site on mutliple screen sizes](https://i.imgur.com/PlBUp8i.png)
+
+
 # The purpose of this project
 
 
@@ -17,34 +21,34 @@ A live version of the project can be found here -
 https://petragabud.github.io/NTCI/
 
 # Table of Content
-
- - UX
--   User Demographic
-  -   User Stories
-  -   Existing Members
-   -   New Users
- -   User Goals
- -   Requirements
-  -   Design
- -   Colors
-  -   Typography
-  -   Images
--   Features
-  -   Existing Features
-  -   Header and Navigation Section
- -   About us Section
- -   Contact Section
- -   Footer Section
- -   Features Left to Implement
- -   Technologies used
- -   Testing
- -   Validator Testing
- -  Unfixed bugs
- -   Development and Deployment
- -   Content
- -   Media
- -   Credits
-
++ [UX](#ux "UX")
+  + [User Demographic](#user-demographic "User Demographic")
+  + [User Stories](#user-stories "User Stories")
+    + [Existing Members](#existing-members "Existing Members")
+    + [New Users](#new-users "New Users")
+  + [User Goals](#user-goals "User Goals")
+  + [Requirements](#requirements "Requirements")
+  + [Design](#design "Design")
+    + [Colours](#colours "Colours")
+    + [Typography](#typography "Typography")
+    + [Images](#images "Images")
++ [Features](#features "Features")
+  + [Existing Features](#existing-features "Existing Features")
+    + [Header and Navigation Section](#header-and-navigation-section "Header and Navigation Section")
+    + [About us Section](#about-us-section "About us Section")
+    + [Contact  Section](#contact-section "Contact Section")
+    + [Footer Section](#footer-section "Footer Section")
+    + [Thank You Page](#thank-you-page "Thank You Page")
+  + [Features Left to Implement](#features-left-to-implement "Features Left to Implement")
++ [Technologies used](#technologies-used "Technologies used")
++ [Testing](#testing "Testing")
+  + [Validator Testing](#validator-testing "Validator Testing")
+  + [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
++ [Development and Deployment](#development-and-deployment "Development and Deployment")
++ [Content](#content "Content")
++ [Media](#media "Media")
++ [Credits](#credits "Credits")
+ 
 ## UX
 
 ### User Demographic
@@ -151,6 +155,8 @@ In order to make navigation easier between the sections, the navigation bar is f
 
 #### Header and Navigation Section
 
+![Header and Navigation Section](https://i.imgur.com/7YszFZv.png)
+
 -   The Header is text based and aligned to the Center of the page
     
 -   The Navigation Menu is right under the Header and is aligned to the Center of the page
@@ -162,34 +168,46 @@ In order to make navigation easier between the sections, the navigation bar is f
 
 #### Home Section
 
--   The home section consists of a title and a paragraph nested inside of a brown border-box.
-    
+![Home Section Screenshot](https://i.imgur.com/eVbGDr1.png)
 
-#### Home Section
+-   The home section consists of a title and a paragraph nested inside of a brown border-box.
 
 -   The home section is a brief intro to some of the accomplishments of the subject.
     
 
 #### Biography Section
 
+![Biography Section Screenshot](https://i.imgur.com/3Ekx5jj.png)
+
 -   This section contains a Title and four paragraphs with facts about the individual's life and inventions.
     
 
-#### Contact and Registration Section
+#### Contact  Section
 
--   The section contains a registration form and contact details for the Website admin.
+![Contact Section Screenshot](https://i.imgur.com/8qq8m6B.png)
+
+-   The section contains a contact form and contact details for the Website admin.
     
 -   It can be used for getting more information, giving an input or simply saying hello.
     
 
 #### Footer Section
 
+![Footer Section Screenshot](https://i.imgur.com/C6M9ell.png)
+
  -   The Footer contains four social media links (Facebook, Twitter, YouTube, and Instagram) The code for the Footer is borrowed from the Love Running - Project.
     
  -   The purpose of the Footer is to provide easy access for the User to the different social media platforms where the History has a presence.
     
-   #### Thank You Page
- - The purpose of the Thank you page is to make sure that the users are aware that their message has been sent and that they will get their responces.
+   
+
+#### Thank You Page Section
+
+![Thank You Page Screenshot](https://i.imgur.com/lkXy7eL.png)
+
+ The purpose of the Thank You page is to make sure that the users are aware that their message has been sent and that they will get their responces.
+ 
+ [Thank You Page Link](https://petragabud.github.io/NTCI/contact-form.html?name=i&email=info@info.com)
 
 ### Features Left to Implement
 
@@ -211,35 +229,32 @@ The test has been conducted using Google Chrome, Mozilla Firefox, and Safari. Te
 
 Listed are the main issues discovered. (I did not document the details of the mistakes I did during the development of the website but will use the final fixing stage as an example):
 
--   On smaller screens, the border boxes became fixed and did not adjust to the size of the screen and content as needed
+ -   On smaller screens, the border boxes became fixed and did not adjust to the size of the screen and content as needed
     
 I changed the values from Pixels into em and percentages
 
--   The Navigation and Social Media icons become (start overlapping) distorted on smaller screens
+ -   The Navigation and Social Media icons become (start overlapping) distorted on smaller screens
     
-    Added Margins and Padding to solve the problem
+   Added Margins and Padding to solve the problem
+   
+
+ - I had a problem with HTML code vadiation - after identifying the problem (the h1 heading was in the head element instead of the body)
+ 
+ I relocated the h1 heading into the body and solved the problem
 
 Apart from these issues, there have been several minor issues. The majority of these have been due to not putting the spaces, dashes, or other signs where necerassy.
 
 In testing with the W3School Validator 0 issues popped up.
 
 ### Validator Testing
+![CSS W3 Validator Results](https://i.imgur.com/7Kl7k0m.png)
+-   [CSS Jigsaw Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https://petragabud.github.io/NTCI/&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
--   HTML - 0 Errors and Warnings found by W3Schools validator
-
--   CSS
-    
--   No errors were returned when passing through the official (Jigsaw validator)
+![HTML Validator Results](https://i.imgur.com/qrjrStu.png)
+-   [HTML Validator Results](https://validator.w3.org/nu/?doc=https://petragabud.github.io/NTCI/)
     
 -   Lighthouse testing
-    
-Performance: 99
-
-Accessibility: 100
-
-Best Practices: 92
-
-SEO: 97
+    ![Lighthouse Testing Results](https://i.imgur.com/m7wL21V.png)
 
 ### Unfixed bugs
 
@@ -270,9 +285,9 @@ The live link can be found here - [https://petragabud.github.io/NTCI/](https://p
 
 ## Content Credits
 
-The background image is from Wikipedia.
+[The background image is from Wikipedia.](https://hr.wikipedia.org/wiki/Datoteka:Tesla_circa_1890.jpeg)
 
-Parts of The Code used are from talkerscode.com and w3schools.com
+Parts of the code used are from [talkerscode.com](http://talkerscode.com/) and [w3schools.com](https://www.w3schools.com/)
 
 Facts (content) are from [https://www.britannica.com/biography/Nikola-Tesla](https://www.britannica.com/biography/Nikola-Tesla)
 
@@ -280,20 +295,20 @@ Facts and quotes are from [https://mocomi.com/nikola-tesla-biography/](https://m
 
 ## Media
 
--   The image came from Wikipedia and I hosted it on Imgur after I resized it Cloud Convert
+-   [The image came from Wikipedia](https://hr.wikipedia.org/wiki/Datoteka:Tesla_circa_1890.jpeg) and I hosted it on [Imgur](https://i.imgur.com/mBIn4qc.jpg) after I resized it Cloud Convert
     
 
 ## Mentor Credits
 
-Martina Terlević
+[Martina Terlević](https://github.com/SephTheOverwitch)
 
-P.S. thanks to Pelikantapenten whom I've never met but used as a template for a ReadMe file.
+P.S. thanks to [Pelikantapenten](https://github.com/Pelikantapeten) whom I've never met but used as a template for a ReadMe file.
 
 ### Sources used for Inspiration and Functionality:
 
-W3 schools
+[W3 Schools](https://www.w3schools.com/)
 
-Talkers Code
+[Talkers Code](http://talkerscode.com/)
 
 Love Running Project - Code Institute
 
