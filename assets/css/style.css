@@ -1,29 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Montserrat:wght@300&display=swap');
 
-/* header rules */
-#header h1 {
-  font-family: "Montserrat", sans-serif;
-  display: inline-block;
-  text-align: center;
+/* header and navigation rules */
+#header,
+#navigation {
   margin: auto 0;
-  font-size: 275%;
+  width: 100%;
   color: #3a2d0a;
-  font-weight: bold;
-  cursor: pointer;
+  border: 1px hidden;
+  position: fixed;
 }
 
-/* navigation not moving when scrolling the page */
+/* header navigation rules */
+#header {
+  position: relative;
+}
+
+/* navigation rules */
 #navigation {
-  font-family: "Inconsolata", Sans-serif;
-  width: 100%;
-  position: fixed;
+  margin-top: 5%;
   background-color: grey;
+  position: absolute;
+  position: fixed;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  display: inline;
   text-align: center;
-  border: 1px hidden;
+  font-size: 275%;
+  color: #FFE8D6;
+}
+
+
+.navigation {
+  font-family: "Montserrat", sans-serif;
+  display: inline;
+  text-align: center;
+  font-size: 35%;
   color: white;
-  font-size: 125%;
-  font-style: normal;
-  margin: 10%;
+  position: absolute;
 }
 
 /* a href (for Navigation Menu and Social Media) changes colors when certain actions are made */
@@ -34,7 +49,7 @@ a:visited {
   padding: 1%;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: inline;
 }
 
 a:hover,
@@ -66,7 +81,7 @@ body {
 #contact,
 #successfull-form-message {
   margin: 10%;
-  margin-top: 100px;
+  margin-top: 25%;
   width: 85%;
   height: 40%;
   padding: 50px;
@@ -101,18 +116,21 @@ p {
 #contact input[type="text"] {
   width: 60%;
   height: 5%;
+  float: center;
   border: none;
 }
 
 #contact input[type="email"] {
   width: 60%;
   height: 5%;
+  float: center;
   border: none;
 }
 
 #contact textarea {
   width: 60%;
-  height: auto;
+  height: auto 0;
+  float: center;
   margin-top: 5%;
   border: none;
 }
@@ -129,11 +147,12 @@ p {
   text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
   text-align: center;
   display: inline;
   min-height: 100%;
   margin-bottom: -120px;
+  padding: auto 0;
   font-size: 150%;
 }
 
