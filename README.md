@@ -139,9 +139,9 @@ No errors were returned when passing through the official (Jigsaw validator)
 
 Lighthouse testing
 Performance: 96
-Accessibility: 97
-Best Practices: 93
-SEO: 93
+Accessibility: 95
+Best Practices: 92
+SEO: 86
  
 Unfixed bugs
 I am still working on fixing the bugs with the help of my mentor.
